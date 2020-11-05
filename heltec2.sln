@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "heltec2", "heltec2.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DHT_sensor_library_for_ESPx-1.17", "Libraries\DHT_sensor_library_for_ESPx\1.17\DHT_sensor_library_for_ESPx\DHT_sensor_library_for_ESPx-1.17.vcxitems", "{6F9BB36D-D752-4939-A867-A25D0D160761}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Adafruit_Unified_Sensor-1.1.4", "Libraries\Adafruit_Unified_Sensor\1.1.4\Adafruit_Unified_Sensor\Adafruit_Unified_Sensor-1.1.4.vcxitems", "{E6FE5F4D-A883-44C4-88B6-C0F385F1B61C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "arduino_470449-1.4.0", "Libraries\arduino_470449\1.4.0\arduino_470449\arduino_470449-1.4.0.vcxitems", "{C670F5CF-53A9-4E0C-97D5-49D7508D4855}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Libraries\DHT_sensor_library_for_ESPx\1.17\DHT_sensor_library_for_ESPx\DHT_sensor_library_for_ESPx-1.17.vcxitems*{6f9bb36d-d752-4939-a867-a25d0d160761}*SharedItemsImports = 9
+		Libraries\Adafruit_Unified_Sensor\1.1.4\Adafruit_Unified_Sensor\Adafruit_Unified_Sensor-1.1.4.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\arduino_470449\1.4.0\arduino_470449\arduino_470449-1.4.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\DHT_sensor_library_for_ESPx\1.17\DHT_sensor_library_for_ESPx\DHT_sensor_library_for_ESPx-1.17.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\arduino_470449\1.4.0\arduino_470449\arduino_470449-1.4.0.vcxitems*{c670f5cf-53a9-4e0c-97d5-49d7508d4855}*SharedItemsImports = 9
+		Libraries\Adafruit_Unified_Sensor\1.1.4\Adafruit_Unified_Sensor\Adafruit_Unified_Sensor-1.1.4.vcxitems*{e6fe5f4d-a883-44c4-88b6-c0f385f1b61c}*SharedItemsImports = 9
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.ActiveCfg = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.Build.0 = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.ActiveCfg = Release|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E0265E8-BC87-4605-8AC2-1CE18C2C16D4}
+	EndGlobalSection
+EndGlobal
